@@ -1,0 +1,176 @@
+
+/* Nav  */
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 52px;
+  }
+  h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  .container--pall {
+    padding-top: 64px;
+}
+.container--py {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+.container--pt {
+  padding-top: 96px;
+}
+.container--pb {
+  padding-bottom: 96px;
+}
+.hide-for-desktop {
+  display: none;
+}
+}
+
+@media (max-width: 639px) {
+  .container--pall {
+    padding-top: 38px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROFILE  */
+
+@media (width < 750px) {
+  
+.section__container {
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .image {
+    grid-area: 1/1/2/2;
+  }
+
+  .action__btns {
+    margin: auto;
+  }
+  .profile-icon {
+    margin: auto;
+  }
+  
+}
+
+
+
+/* ABOUT ME  */
+
+
+@media only screen and (max-width: 767px) {
+  #about-section {
+    flex-direction: column;
+    padding: 50px 16%;
+  }
+
+  .about-left img {
+    width: 100%;
+    transform: translateY(0);
+  }
+
+  .about-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .about-right h1 {
+    font-size: 28px;
+  }
+
+  .about-right .expertise ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .about-right ul li {
+    width: 48%;
+    margin-bottom: 10px;
+  }
+}
+
+/* grandezza media */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-left img {
+    width: 300px;
+  }
+
+  .about-right h1 {
+    font-size: 32px;
+  }
+}
+
+/* larghezza larga */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-left img {
+    width: 350px;
+  }
+}
+
+/* extra larga */
+@media only screen and (min-width: 1200px) {
+  .about-left img {
+    width: 400px;
+  }
+}
+
+
+
+
+
+  
+
+
+/* PROJECT and CONTACT  */
+
+@media (max-width: 1200px) {
+  #project .project .project-item {
+      padding: 15px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #project .project {
+      margin: 0 auto;
+  }
+  #contact {
+      height: 40vh;
+    }
+    .contact-info-upper-container
+     {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p{
+      font-size: 16px;
+    }
+  }
+
+
+
+  
